@@ -1,0 +1,104 @@
+/* my rulz */
+body
+{
+   
+}
+
+
+.content
+{
+    border: 1px solid #d2d2d2;
+    min-height: 640px;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    top:10px
+}
+
+/*Start left*/
+div .left
+{
+    min-height: 640px;
+    margin-left: -14px;
+    background-color: rgb(244,244,244);
+    text-align: center
+}
+
+div .left div
+{
+    height: 120px;
+    padding-top: 20px
+}
+
+div .left div img
+{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    border: 2px solid rgb(15,136,123);
+    border-radius: 50%
+}
+
+div .left p{text-align: center; color: rgb(144,144,144)}
+
+div .left ul{text-align: center; color: rgb(15,136,123)}
+
+div .left ul li {display: inline}
+
+div .left i{font-size: large; color: rgb(15,136,123)}
+
+div .left .flag
+{
+    border-radius: 0;
+    margin-top: 40px;
+    border: none;
+    width:90px;
+    height: 50px
+}
+
+div .left h5{margin:10px 15px 50px;color: rgb(144,144,144)}
+/*End left */
+
+/*Start right */
+
+
+.right section{padding-bottom: 50px}
+
+.right section p{margin: 40px 20px}
+
+.right section p span{color: #d2d2d2}
+
+.right section h3{margin: 40px 20px}
+
+.right section p{color: rgb(144,144,144)}
+
+hr{margin-bottom: 40px}
+
+.right .skills strong{margin: 0 20px;color: rgb(120,120,120)}
+
+.right .skills ul{margin: 40px 10px}
+
+.right .skills ul li
+{
+    float: left;
+    margin: 10px 10px;
+    padding: 5px;
+    border: 2px solid #d2d2d2;
+    color: rgb(144,144,144)
+}
+
+.right .buttons{padding: 50px}
+
+.right .buttons button
+{
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 8px 0 0 -15px;
+    color: #fff;
+    border: none
+}
+
+.right .buttons button:hover{box-shadow: 5px 5px 5px #d2d2d2}
+
+/*End right */
